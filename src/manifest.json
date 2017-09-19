@@ -14,16 +14,6 @@
     "content_scripts": [
         {
             "all_frames": true, 
-            "js": [
-                "lib/ajaxhook.js"
-            ], 
-            "run_at": "document_start", 
-            "matches": [
-                "*://*/*"
-            ]
-        }, 
-        {
-            "all_frames": true, 
             "css": [
                 
             ], 
