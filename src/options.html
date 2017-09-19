@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Options - BlockText</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="renderer" content="webkit" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link rel="stylesheet" href="/lib/layui/css/layui.css" media="all" />
+		<style type="text/css">			
+			*{padding: 0; margin: 0; font-size: 13px;} 
+			body{ padding: 10px; } 
+			.content button{margin: 0 7px 10px 0; border-radius: 0; padding-right: 0px;}	
+			.layui-form-switch{width: 60px;}
+			.layui-form-onswitch i{ left: 50px; }					
+		</style>
+	</head>
+	<body>
+		<div class="layui-tab">
+			<ul class="layui-tab-title">
+				<li class="layui-this">{{ d.keyword }}</li>
+				<li>{{ d.settings }}</li></ul>
+			<div class="layui-tab-content">
+				<div class="layui-tab-item layui-show">
+					<form id="frm_kw" class="layui-form" action="" method="post">
+						<div class="layui-form-item">
+							<label class="layui-form-label">{{ d.keyword }}:</label>
+							<div class="layui-input-block">
+								<input type="text" name="kw" lay-verify="kw" autocomplete="off" placeholder="{{ d.placeholder_please_input_keyword }}" class="layui-input"></div>
+						</div>
+						<div class="layui-form-item">
+							<div class="layui-input-block">
+								<button class="layui-btn" lay-submit="" lay-filter="btnAddKw">{{ d.block }}</button>	
+								<span class="layui-btn layui-btn-primary" lay-filter="btnRemoveKw">{{ d.unblock }}</span>
+								<!-- <button type="reset" class="layui-btn layui-btn-primary">重置</button> -->
+							</div>
+						</div>						
+						<div class="layui-form-item">
+							<label class="layui-form-label">{{ d.keyword_text }}:</label>
+							<div class="layui-input-block">
+								<input type="checkbox" name="switchShowKw" lay-skin="switch" lay-filter="switchShowKw" lay-text="{{ d.display }}|{{ d.hide }}" />
+							</div>
+						</div>
+					</form>
+					
+					<div id="div_kwlist" class="content">
+						<!-- <button class="layui-btn layui-btn-small layui-btn-warm">****<i class="layui-icon">&#xe640;</i></button> -->
+						
+					</div>
+				</div>
+				<div class="layui-tab-item">
+					<form id="frm_settings" class="layui-form" action=""  method="post">
+						<div class="layui-form-item">
+							<label class="layui-form-label">{{ d.replacement_word }}:</label>
+							<div class="layui-input-block">
+								<input type="text" name="replacement" lay-verify="replacement" autocomplete="off" placeholder="{{ d.placeholder_please_input_keyword_replacement }}" class="layui-input"></div>
+						</div>
+						<div class="layui-form-item">
+							<div class="layui-input-block">
+								<button class="layui-btn" lay-submit="" lay-filter="btnSaveSetting">{{ d.save }}</button>		
+							</div>
+						</div>
+					</form>
+					<br/>
+					<blockquote class="layui-elem-quote layui-text">
+						<p>	
+							{{ d.use_these_components }}: <a href="http://www.layui.com/"  target="_blank">layui</a>
+							、<a href="http://jquery.com/"  target="_blank">jQuery</a>
+							<!-- 、<a href="https://github.com/wendux/Ajax-hook"  target="_blank">Ajax-hook</a> -->		
+						</p>
+						<p>
+							 {{ d.have_problem_or_advice }}: <a href="https://github.com/ohsorry/BlockText" target="_blank">https://github.com/ohsorry/BlockText</a> 
+						</p>
+					 
+					</blockquote>
+				</div>
+			</div>
+		</div>
+		<script src="/lib/jquery.min.js"></script>	
+		<script src="/lib/layui/layui.js" charset="utf-8"></script>
+		<script src="i18n.js" charset="utf-8"></script>
+		<script src="Inc.js" charset="utf-8"></script>
+		<script src="options.js" charset="utf-8"></script>
+	</body>
+
+</html>

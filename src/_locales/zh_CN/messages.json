@@ -1,0 +1,143 @@
+{
+  "chrome_extension_name": {
+    "message": "BlockText"
+  },
+  "chrome_extension_description": {
+    "message": "一个Chrom扩展，允许你屏蔽或替换掉网页上任何你不想看见的文字。https://github.com/ohsorry/BlockText"
+  },
+  "browser_action_title": {
+    "message": "屏蔽文本"
+  },
+  "ok":{
+    "message": "确定"
+  },
+  "cancel":{
+    "message": "取消"
+  },
+  "yes":{
+    "message": "是"
+  },
+  "no":{
+    "message": "否"
+  },
+  "retry":{
+    "message": "重试"
+  },
+  "copy":{
+    "message": "复制"
+  },
+  "cut":{
+    "message": "剪切"
+  },
+  "paste":{
+    "message": "粘贴"
+  },
+  "save":{
+    "message": "保存"
+  },  
+  "load":{
+    "message": "加载"
+  },
+  "open":{
+    "message": "打开"
+  },  
+  "close":{
+    "message": "关闭"
+  },
+  "select":{
+    "message": "选择"
+  },  
+  "search":{
+    "message": "搜索"
+  },
+  "find":{
+    "message": "查找"
+  },
+  "replace":{
+    "message": "替换"
+  },
+  "add":{
+    "message": "添加"
+  },  
+  "remove":{
+    "message": "移除"
+  },
+  "create":{
+    "message": "创建"
+  }, 
+  "delete":{
+    "message": "删除"
+  },  
+  "edit":{
+    "message": "编辑"
+  },
+  "sort":{
+    "message": "排序"
+  },
+  "options":{
+    "message": "选项"
+  },
+  "settings":{
+    "message": "设置"
+  },
+  "display":{
+    "message": "显示"
+  },
+  "about":{
+    "message": "关于"
+  },  
+  "hide":{
+    "message": "隐藏"
+  },
+  "keyword":{
+    "message": "关键词"
+  },
+  "keyword_text":{
+    "message": "关键词文字"
+  },  
+  "keyword_required":{
+    "message": "关键词不能为空"
+  },
+  "keyword_exists":{
+    "message": "关键词已经存在"
+  },
+  "keyword_not_exists":{
+    "message": "关键词不存在"
+  },
+  "keyword_not_found":{
+    "message": "未找到关键词"
+  },
+  "replacement_word":{
+    "message": "替换词"
+  },  
+  "serious_tips":{
+    "message": "郑重提示"
+  },
+  "confirm_display_keyword_text_question":{
+    "message": "你确定要显示这些垃圾吗？"
+  },
+  "placeholder_please_input_keyword":{
+    "message": "请输入关键词，如&quot;领导&quot;"
+  },
+  "placeholder_please_input_keyword_replacement":{
+    "message": "请输入关键词的替换词，如&quot;-[傻逼]-&quot;"
+  },
+  "use_these_components":{
+    "message": "BlockText使用了这些组件"
+  },
+  "have_problem_or_advice":{
+    "message": "发现问题或建议"
+  },
+  "unblock":{
+    "message": "解除屏蔽"
+  },
+  "block":{
+    "message": "屏蔽"
+  },
+  "has_been_blocked":{
+    "message": "已经屏蔽"
+  },
+  "saved":{
+    "message": "已经保存"
+  }
+}

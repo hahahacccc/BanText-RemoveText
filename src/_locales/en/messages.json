@@ -1,0 +1,143 @@
+{
+  "chrome_extension_name": {
+    "message": "BlockText"
+  },
+  "chrome_extension_description": {
+    "message": "A chrome extension that allows you to block/replace any text on web page you DO NOT want to see. https://github.com/ohsorry/BlockText"
+  },
+  "browser_action_title": {
+    "message": "Block Text"
+  },
+  "ok":{
+    "message": "OK"
+  },
+  "cancel":{
+    "message": "Cancel"
+  },  
+  "yes":{
+    "message": "Yes"
+  },
+  "no":{
+    "message": "No"
+  },
+  "retry":{
+    "message": "Retry"
+  },
+  "copy":{
+    "message": "Copy"
+  },
+  "cut":{
+    "message": "Cut"
+  },
+  "paste":{
+    "message": "Paste"
+  },
+  "save":{
+    "message": "Save"
+  },  
+  "load":{
+    "message": "Load"
+  },
+  "open":{
+    "message": "Open"
+  },  
+  "close":{
+    "message": "Close"
+  },
+  "select":{
+    "message": "Select"
+  },  
+  "search":{
+    "message": "Search"
+  },
+  "find":{
+    "message": "Find"
+  },  
+  "replace":{
+    "message": "Replace"
+  },
+  "add":{
+    "message": "Add"
+  },  
+  "remove":{
+    "message": "Remoev"
+  },
+  "create":{
+    "message": "Create"
+  }, 
+  "delete":{
+    "message": "Delete"
+  },  
+  "edit":{
+    "message": "Edit"
+  },
+  "sort":{
+    "message": "Sort"
+  },
+  "options":{
+    "message": "Options"
+  },
+  "settings":{
+    "message": "Settings"
+  },
+  "about":{
+    "message": "About"
+  },
+  "display":{
+    "message": "Display"
+  },
+  "hide":{
+    "message": "Hide"
+  },
+  "keyword":{
+    "message": "Keyword"
+  },
+  "keyword_text":{
+    "message": "Keyword text"
+  },  
+  "keyword_required":{
+    "message": "Keyword could not be empty"
+  },
+  "keyword_exists":{
+    "message": "Keyword already exists"
+  },
+  "keyword_not_exists":{
+    "message": "Keyword not exists"
+  },
+  "keyword_not_found":{
+    "message": "Keyword not found"
+  },
+  "replacement_word":{
+    "message": "Replacement word"
+  },
+  "serious_tips":{
+    "message": "Serious tips"
+  },
+  "confirm_display_keyword_text_question":{
+    "message": "Do you really really want to display shit?"
+  },
+  "placeholder_please_input_keyword":{
+    "message": "Type a keyword, for example &quot;Boss&quot;"
+  },
+  "placeholder_please_input_keyword_replacement":{
+    "message": "Type the replacement word for keywords, for example &quot;-[Idiot]-&quot;"
+  },
+  "use_these_components":{
+    "message": "BlockText thanks these components"
+  },
+  "have_problem_or_advice":{
+    "message": "Have a problem or advice"
+  },
+  "unblock":{
+    "message": "Unblock"
+  },
+  "block":{
+    "message": "Block"
+  },
+  "has_been_blocked":{
+    "message": "Blocked"
+  },
+  "saved":{
+    "message": "Saved"
+  }
+}
